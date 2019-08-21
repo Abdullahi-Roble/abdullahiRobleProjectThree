@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Project 3</title>
+</head>
+<body>
+    <header>
+        <h1 class="title"><i></i>Sleep Cycles!</h1>
+    </header>
+    <main>
+        <section class="sleepIntro">
+            <div class="wrapper">
+                <h2>How Well Do You Sleep?</h2>
+                <p class="introText">Take the quiz and find out!</p>
+                <button class="submit">Take Quiz!</button>
+            </div>
+        </section>
+        <section class="sleepQuestions">
+            <div class="wrapper">
+                <form action="">
+                    <fieldset class="sleepTime">
+                        <p><i></i>What time do you go to bed?</p>
+                        <label for="early">8pm - 10pm</label>
+                        <input type="radio" name="bedtime" id="early" value="early" required>
+                        <label for="good">10pm - Midnight</label>
+                        <input type="radio" name="bedtime" id="good" value="good" required>
+                        <label for="late">Beyond Midnight</label>
+                        <input type="radio" name="bedtime" id="late" value="late" required>
+                    </fieldset>
+                    <fieldset class="sleepHours">
+                        <p><i></i>How many hours of sleep do you get?</p>
+                        <label for="minimal">1 - 4 hours</label>
+                        <input type="radio" name="timeInBed" id="minimal" value="minimal" required>
+                        <label for="average">5 - 8 hours</label>
+                        <input type="radio" name="timeInBed" id="average" value="average" required>
+                        <label for="excellent">More than 8 hours</label>
+                        <input type="radio" name="timeInBed" id="excellent" value="excellent" required>
+                    </fieldset>
+                    <fieldset class="sleepConsist">
+                        <p><i></i>Are you consistent?</p>
+                        <label for="great">Yes</label>
+                        <input type="radio" name="diligence" id="great" value="great" required>
+                        <label for="fail">No</label>
+                        <input type="radio" name="diligence" id="notGreat" value="notGreat" required>
+                    </fieldset>
+                    <div class="submit">
+                        <input type="submit" value="What's the verdict?!">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="sleepResults">
+            <div class="wrapper"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <p>Copywright © 2019</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

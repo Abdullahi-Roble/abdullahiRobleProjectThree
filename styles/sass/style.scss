@@ -1,0 +1,29 @@
+
+// PARTIAL IMPORTS
+
+@import "index";
+@import "queries";
+@import "setup";
+@import "variables";
+
+// GENERAL STYLES
+
+html {
+    font-size: 125%;
+
+    body {
+        font-family: $baseFont;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4 {
+        $titleFont:
+    }
+}
+
+.wrapper {
+    max-width: 800px;
+    width: 50%;
+}
