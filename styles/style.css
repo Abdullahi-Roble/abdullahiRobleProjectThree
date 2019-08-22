@@ -179,23 +179,21 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   overflow: hidden;
 }
 
-main {
-  background-image: url(../assets/darkWorld.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 110vh;
-}
-
-main h1 {
+header .sleepIntro {
+  min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+p {
+  padding: 15% 0;
 }
 
 main fieldset {
@@ -206,7 +204,7 @@ main fieldset {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  padding: 3% 0;
+  padding: 15% 0;
   margin: 3% 0;
   border: none;
 }
@@ -237,15 +235,11 @@ main fieldset .radioChoices .sleepyTime {
 }
 
 main fieldset label {
-  padding: 3% 0;
+  padding: 15% 0;
 }
 
 main fieldset .finale {
   padding: 2% 0;
-}
-
-footer {
-  background: #000;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
@@ -444,7 +438,6 @@ html h4,
 html p,
 html label {
   text-align: center;
-  color: #fff;
   margin: 0 auto;
   padding: 2% 0;
 }
@@ -455,6 +448,6 @@ html h1 {
 
 .wrapper {
   max-width: 800px;
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
 }

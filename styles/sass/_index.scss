@@ -4,23 +4,28 @@
 
 // Header Styling
 
-// header {
+header {
+    // background-image: url(../assets/darkWorld.jpg);
+    // background-repeat: no-repeat;
+    // background-size: cover;
     
-// }
+    .sleepIntro {
+        min-height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+p {
+    padding: 15% 0;
+}
+
 
 // Main Section Styling
 
 main {
-    background-image: url(../assets/darkWorld.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 110vh;
     
-    h1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     // background: #FFA17F;  /* fallback for old browsers */
     // background: -webkit-linear-gradient(to bottom, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
     // background: linear-gradient(to bottom, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -28,7 +33,7 @@ main {
     fieldset {
         display: flex;
         flex-flow: column wrap;
-        padding: 3% 0;
+        padding: 15% 0;
         margin: 3% 0;
         border: none;
 
@@ -48,7 +53,7 @@ main {
         }
 
         label {
-            padding: 3% 0;
+            padding: 15% 0;
         }
 
         .finale {
@@ -60,5 +65,5 @@ main {
 // Footer Styling
 
 footer {
-    background: $black;
+    // background: $black;
 }
