@@ -181,8 +181,6 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 main {
   background-image: url(../assets/darkWorld.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   min-height: 110vh;
 }
 
@@ -236,12 +234,8 @@ main fieldset .radioChoices .sleepyTime {
           flex-flow: column wrap;
 }
 
-main fieldset label {
+main fieldset input {
   padding: 3% 0;
-}
-
-main fieldset .finale {
-  padding: 2% 0;
 }
 
 footer {
@@ -458,3 +452,4 @@ html h1 {
   width: 50%;
   margin: 0 auto;
 }
+/*# sourceMappingURL=style.css.map */
