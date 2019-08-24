@@ -8,7 +8,7 @@
     <title>Project 3</title>
 </head>
 <body>
-    <header>
+    <header id="start">
         <section class="sleepIntro">
             <div class="wrapper">
                 <h1 class="title"><i></i>Sleep Cycles!</h1>
@@ -20,69 +20,54 @@
     </header>
     <main class="mainContent">
         <section class="sleepQuestions">
-            <div class="wrapper contentForm">
-                <form class="onlyForm" action="">
-                    <fieldset class="time">
-                        <div class="radioQuestions">
-                            <p><i></i>What time do you go to bed?</p>
-                        </div>
-                        <div class="radioChoices">
-                            <div class="sleepyTime">
-                                <label for="early">8pm - 10pm</label>
-                                <input type="radio" name="bedtime" id="early" value="early" required>
-                            </div>
-                            <div class="sleepyTime">
-                                <label for="good">10pm - Midnight</label>
-                                <input type="radio" name="bedtime" id="good" value="good" required>
-                            </div>
-                            <div class="sleepyTime">
-                                <label for="late">Beyond Midnight</label>
-                                <input type="radio" name="bedtime" id="late" value="late" required>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset class="hours">
-                        <div class="radioQuestions">
-                            <p><i></i>How many hours of sleep do you get?</p>
-                        </div>
-                        <div class="radioChoices">
-                            <div class="sleepyTime">
-                                <label for="minimal">1 - 4 hours</label>
-                                <input type="radio" name="timeSlept" id="minimal" value="minimal" required>
-                            </div>
-                            <div class="sleepyTime">
-                            	<label for="average">5 - 8 hours</label>
-                            	<input type="radio" name="timeSlept" id="average" value="average" required>
-                            </div>
-                            <div class="sleepyTime">
-                                <label for="excellent">More than 8 hours</label>
-                                <input type="radio" name="timeSlept" id="excellent" value="excellent" required>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset class="consist">
-                        <div class="radioQuestions">
-                            <p><i></i>Are you consistent?</p>
-                        </div>
-                        <div class="radioChoices">
-                            <div class="sleepyTime">
-                                <label for="great">Yes</label>
-                                <input type="radio" name="diligence" id="great" value="great" required>
-                            </div>
-                            <div class="sleepyTime">
-                                <label for="fail">No</label>
-                                <input type="radio" name="diligence" id="notGreat" value="notGreat" required>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <div class="finale">
-                        <button class="submit">What's the verdict?!</button>
+            <form class="onlyForm" action="">
+                <fieldset class="time">
+                    <div class="radioQuestions queryOne">
+                        <p><i></i>What time do you go to bed?</p>
                     </div>
-                </form>
-            </div>
+                    <div class="radioChoices answerOne">
+                        <label for="early">8pm - 10pm</label>
+                        <input type="radio" name="bedtime" id="early" value="early" required>
+                        <label for="good">10pm - Midnight</label>
+                        <input type="radio" name="bedtime" id="good" value="good" required>
+                        <label for="late">Beyond Midnight</label>
+                        <input type="radio" name="bedtime" id="late" value="late" required>
+                    </div>
+                </fieldset>
+                <fieldset class="hours">
+                    <div class="radioQuestions queryTwo">
+                        <p><i></i>How many hours of sleep do you get?</p>
+                    </div>
+                    <div class="radioChoices answerTwo">
+                        <label for="minimal">1 - 4 hours</label>
+                        <input type="radio" name="timeSlept" id="minimal" value="minimal" required>
+                        <label for="average">5 - 8 hours</label>
+                        <input type="radio" name="timeSlept" id="average" value="average" required>
+                        <label for="excellent">More than 8 hours</label>
+                        <input type="radio" name="timeSlept" id="excellent" value="excellent" required>
+                    </div>
+                </fieldset>
+                <fieldset class="consist">
+                    <div class="radioQuestions queryThree">
+                        <p><i></i>Are you consistent?</p>
+                    </div>
+                    <div class="radioChoices answerThree">
+                        <label for="great">Yes</label>
+                        <input type="radio" name="diligence" id="great" value="great" required>
+                        <label for="notGreat">No</label>
+                        <input type="radio" name="diligence" id="notGreat" value="notGreat" required>
+                    </div>
+                </fieldset>
+                <div class="finale">
+                    <button class="submit">What's the verdict?!</button>
+                </div>
+            </form>
         </section>
         <section class="sleepResults">
             <div class="wrapper"></div>
+        </section>
+        <section>
+            <a href="#start" class="reset"><button class="submit">Reset Quiz</button></a>
         </section>
     </main>
     <footer>
@@ -90,8 +75,7 @@
             <p>Copywright © 2019</p>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
