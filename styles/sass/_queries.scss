@@ -1,0 +1,50 @@
+// Partial Imports
+
+@import "variables";
+
+// RESPONSIVE DESIGN
+
+    // Landscape Tablet / Small Desktops & Laptops Optimization
+
+@media (max-width: 940px) {
+
+    p.introText {
+        color: $black;
+    }
+}
+
+// Portrait Tablet / Landscape Mobile Optimization
+
+@media (max-width: 670px) {
+
+}
+
+// Portrait Mobile Optimization
+
+@media (max-width: 480px) {
+    header {
+
+        h1.title {
+            padding-top: 25%;
+        }
+
+        .sleepIntro h2 {
+            color: $black;
+        }
+    }
+}
+
+// Small Mobile Optimization
+ 
+@media (max-width: 320px) {
+    header {
+
+        h1.title {
+            padding-top: 40%;
+        }
+    }
+
+    button {
+        max-width: 250px;
+    }
+}
