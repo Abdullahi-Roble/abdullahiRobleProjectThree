@@ -5,12 +5,12 @@
 // Header Styling
 
 header {
-    // background-image: url(../assets/darkWorld.jpg);
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    background-image: url(../assets/aboveTheClouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
     .sleepIntro {
-        min-height: 80vh;
+        min-height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -25,16 +25,12 @@ p {
 // Main Section Styling
 
 main {
-    
-    // background: #FFA17F;  /* fallback for old browsers */
-    // background: -webkit-linear-gradient(to bottom, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
-    // background: linear-gradient(to bottom, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     fieldset {
         display: flex;
         flex-flow: column wrap;
-        // padding: 15% 0;
-        margin: 3% 0;
+        justify-content: center;
+        padding: 15% 0;
         border: none;
 
         .radioQuestions {
@@ -43,8 +39,13 @@ main {
 
         .radioChoices {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
+
+        }
+        
+        .answerThree {
+            padding-right: 10%;
         }
 
         label {
@@ -55,10 +56,29 @@ main {
             padding: 2% 0;
         }
     }
+
+    .time {
+        background: $lightteal;
+    }
+
+    .hours {
+        background: $darkteal;
+    }
+
+    .consist {
+        background: $darkblue;
+    }
+
+    .finale,
+    .sleepResults,
+    .sleepReset {
+        background: $midnight;
+        padding: 5% 10%;
+    }
 }
 
 // Footer Styling
 
 footer {
-    // background: $black;
+    background: $black;
 }

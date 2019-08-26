@@ -179,8 +179,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   overflow: hidden;
 }
 
+header {
+  background-image: url(../assets/aboveTheClouds.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header .sleepIntro {
-  min-height: 80vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,7 +210,10 @@ main fieldset {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  margin: 3% 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15% 0;
   border: none;
 }
 
@@ -216,11 +225,16 @@ main fieldset .radioChoices {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+main fieldset .answerThree {
+  padding-right: 10%;
 }
 
 main fieldset label {
@@ -229,6 +243,29 @@ main fieldset label {
 
 main fieldset .finale {
   padding: 2% 0;
+}
+
+main .time {
+  background: #A7B6B5;
+}
+
+main .hours {
+  background: #476678;
+}
+
+main .consist {
+  background: #123D5F;
+}
+
+main .finale,
+main .sleepResults,
+main .sleepReset {
+  background: #152E56;
+  padding: 5% 10%;
+}
+
+footer {
+  background: #000;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
@@ -417,6 +454,7 @@ html {
 }
 
 html body {
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
@@ -427,12 +465,25 @@ html h4,
 html p,
 html label {
   text-align: center;
+  color: #fff;
   margin: 0 auto;
   padding: 2% 0;
 }
 
 html h1 {
   font-size: 4rem;
+  font-family: "Crimson Text", serif;
+}
+
+button {
+  background-color: #123D5F;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  min-width: 320px;
+  padding: 10px 20px;
+  border-radius: 500px;
+  margin: 0 auto;
 }
 
 .wrapper {

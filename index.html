@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:700|Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <title>Project 3</title>
 </head>
@@ -22,10 +23,10 @@
         <section class="sleepQuestions">
             <form class="onlyForm" action="">
                 <fieldset class="time">
-                    <div class="radioQuestions queryOne">
+                    <div class="radioQuestions queryOne wrapper">
                         <p><i></i>What time do you go to bed?</p>
                     </div>
-                    <div class="radioChoices answerOne">
+                    <div class="radioChoices answerOne wrapper">
                         <label for="early">8pm - 10pm</label>
                         <input type="radio" name="bedtime" id="early" value="early" required>
                         <label for="good">10pm - Midnight</label>
@@ -35,10 +36,10 @@
                     </div>
                 </fieldset>
                 <fieldset class="hours">
-                    <div class="radioQuestions queryTwo">
+                    <div class="radioQuestions queryTwo wrapper">
                         <p><i></i>How many hours of sleep do you get?</p>
                     </div>
-                    <div class="radioChoices answerTwo">
+                    <div class="radioChoices answerTwo wrapper">
                         <label for="minimal">1 - 4 hours</label>
                         <input type="radio" name="timeSlept" id="minimal" value="minimal" required>
                         <label for="average">5 - 8 hours</label>
@@ -48,10 +49,10 @@
                     </div>
                 </fieldset>
                 <fieldset class="consist">
-                    <div class="radioQuestions queryThree">
+                    <div class="radioQuestions queryThree wrapper">
                         <p><i></i>Are you consistent?</p>
                     </div>
-                    <div class="radioChoices answerThree">
+                    <div class="radioChoices answerThree wrapper">
                         <label for="great">Yes</label>
                         <input type="radio" name="diligence" id="great" value="great" required>
                         <label for="notGreat">No</label>
@@ -66,8 +67,8 @@
         <section class="sleepResults">
             <div class="wrapper"></div>
         </section>
-        <section>
-            <a href="#start" class="reset"><button class="submit">Reset Quiz</button></a>
+        <section class="sleepReset">
+            <a href="#start" class="reset"><button class="submit" type="reset">Return to Top!</button></a>
         </section>
     </main>
     <footer>
